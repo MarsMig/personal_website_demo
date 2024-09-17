@@ -5,3 +5,5 @@ moved on to the basic HTML for the About Me page
 HTML for Portfolio page completed
 Added "Hello World JS
 CSS in Progress
+Finished CSS styling
+updated paragraphs
