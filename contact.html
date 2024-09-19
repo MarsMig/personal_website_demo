@@ -20,41 +20,31 @@
       </div>
     </nav>
     <main>
-        <div id="MessageForm">
-            <form action="success.html" target="_blank">
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Name</label>
-        <textarea
-          class="form-control"
-          id="exampleFormControlTextarea1"
-          rows="1"
-        ></textarea>
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label"
-          >Email address</label
-        >
-        <input
-          type="email"
-          class="form-control"
-          id="exampleFormControlInput1"
-          placeholder="name@example.com"
-        />
-      </div>
-        <div class="mb-3"></div>
-        <label for="exampleFormControlTextarea1" class="form-label"
-          >Message</label
-        >
-        <textarea
-          class="form-control"
-          id="exampleFormControlTextarea1"
-          rows="4"
-        ></textarea>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    
+        <h1 class="ContactMe">Contact Me</h1>
+     <div class="FlexForm">
+<form id="MessageForm">
+<form action="success.html" target="_blank">
+      <label for="Name">Name:</label>
+      <br>
+      <input id="name" type="text" name="name">
     </div>
-</form>
+    <br>
+    <div class="FlexForm">
+        <label for="email">Email:</label>
+        <br>
+        <input id="email" type="email" name="email">
+    </div>
+    <br>
+    <div class="FlexForm">
+        <label for="message">Message Me:</label>
+        <br>
+        <textarea name="message" id="message" rows="6"></textarea>
+    </div>
+<br>
+<div class="FlexSubmit">
+      <button type="submit" class="btn btn-primary">Submit</button>
+</div>
+</form></form>
     </main>
   </body>
 </html>
