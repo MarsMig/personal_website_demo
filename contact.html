@@ -5,14 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <script src="javascript.js"></script>
-    <script src="success.js"></script>
     <title>Mars Website</title>
   </head>
   <body class="body">
-    <a href="index.html">Home</a>
-    <a href="about.html">About Me</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a class="active" href="#">Contact</a>
-    <main></main>
+    <nav>
+      <div id="name">
+        <h1>Marissa Mignacco</h1>
+      </div>
+      <div class="tabs">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a class="active" href="#">Contact</a>
+      </div>
+    </nav>
+    <main>
+        <div id="MessageForm">
+            <form action="success.html" target="_blank">
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Name</label>
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="1"
+        ></textarea>
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label"
+          >Email address</label
+        >
+        <input
+          type="email"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="name@example.com"
+        />
+      </div>
+        <div class="mb-3"></div>
+        <label for="exampleFormControlTextarea1" class="form-label"
+          >Message</label
+        >
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="4"
+        ></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    
+    </div>
+</form>
+    </main>
   </body>
 </html>

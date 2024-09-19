@@ -7,3 +7,4 @@ Added "Hello World JS
 CSS in Progress
 Finished CSS styling
 updated paragraphs
+Nathan and Will helped create Scrum Board to complete Portfolio II
