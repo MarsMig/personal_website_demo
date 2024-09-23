@@ -16,6 +16,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 0;
+  font-family: Courier;
 }
 a:hover {
   background-color: rgb(48, 48, 2);
@@ -77,14 +78,14 @@ a {
 .ContactMe {
   text-align: center;
 }
-@media screen and (width: 650px) {
+@media screen (width: 650px) {
   main {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
-  #form {
+  .FlexForm {
     margin: 0;
   }
 }
